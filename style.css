@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    height: 12vh;
+    width: 100%;
+    background-color: rgb(234, 136, 136);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+#my_name {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#logo {
+    height: 65px;
+    width: 65px;
+    margin-right: 20px;
+}
+
+#my_name h2 {
+    color: rgb(255, 40, 40);
+}
+
+#sections {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#sections a {
+    font-size: 19px;
+}
+
+#sections a:hover {
+    color: white;
+}
+
+#my_intro {
+    min-height: 100vh;
+    background-image: url("First.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-top: 50px;
+}
+
+#intro_text {
+    width: 550px;
+    color: white;
+}
+
+#intro_text h1 {
+    color: yellow;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+#intro_text h2 {
+    margin-bottom: 25px;
+}
+
+#intro_text p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+#intro_image img {
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+}
+
+#intro_buttons {
+    margin-top: 30px;
+}
+
+.my_button {
+    display: inline-block;
+    background-color: rgb(255, 90, 90);
+    padding: 12px 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.my_button:hover {
+    background-color: white;
+}
+
+#about_me {
+    min-height: 80vh;
+    background-image: url("Second.jpg");
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading h1 {
+    display: inline-block;
+    border: solid black 5px;
+    padding: 10px 20px;
+}
+
+#about_content {
+    width: 650px;
+    margin: auto;
+}
+
+#about_content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+#my_skills {
+    min-height: 70vh;
+    background-color: rgb(220, 235, 250);
+    padding: 100px 0;
+}
+
+#skills_boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill_box {
+    background-color: white;
+    width: 220px;
+    min-height: 180px;
+    padding: 25px;
+    border: solid black 3px;
+    text-align: center;
+}
+
+.skill_box h2 {
+    color: rgb(60, 60, 200);
+    margin-bottom: 25px;
+}
+
+.skill_box p {
+    line-height: 1.6;
+}
+
+#my_projects {
+    min-height: 80vh;
+    background-image: url("Third.png");
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#project_boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.project_box {
+    width: 250px;
+    min-height: 230px;
+    background-color: rgb(255, 228, 196);
+    border: solid black 5px;
+    padding: 25px;
+}
+
+.project_box h2 {
+    color: rgb(80, 23, 253);
+    margin-bottom: 25px;
+}
+
+.project_box p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.project_box h4 {
+    color: rgb(72, 144, 0);
+}
+
+#my_achievements {
+    min-height: 80vh;
+    background-color: rgb(245, 230, 210);
+    padding: 100px 0;
+}
+
+#achievement_boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.achievement_box {
+    width: 220px;
+    min-height: 170px;
+    background-color: white;
+    border: solid black 4px;
+    padding: 20px;
+}
+
+.achievement_box h2 {
+    color: rgb(80, 23, 253);
+    margin-bottom: 20px;
+}
+
+.achievement_box p {
+    line-height: 1.6;
+}
+
+#sports {
+    min-height: 80vh;
+    background-image: url("sports.jpg");
+    background-size: cover;
+    padding: 100px 0;
+}
+
+#sports_boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sport_box {
+    width: 350px;
+    min-height: 250px;
+    padding: 30px;
+    background-size: cover;
+    border: solid black 5px;
+}
+
+.basketball {
+    background-image: url("basketball.jpg");
+}
+
+.swimming {
+    background-image: url("swimming.jpg");
+}
+
+.sport_box h2 {
+    color: red;
+    margin-bottom: 25px;
+}
+
+.sport_box p {
+    line-height: 1.7;
+}
+
+#contact {
+    min-height: 70vh;
+    background-image: url("contact.png");
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#contact > p {
+    margin-bottom: 50px;
+}
+
+#contact_boxes {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.contact_box h3 {
+    margin-bottom: 15px;
+}
+
+.contact_box img {
+    height: 80px;
+    width: 80px;
+    border: solid black 5px;
+    border-radius: 50%;
+}
